@@ -1,7 +1,7 @@
 #!/bin/bash
 max_port=22
 
-if [ "$1" != 22 ]; then
+if [ "$1" -gt 22 ]; then
     max_port=$1
 fi
 
